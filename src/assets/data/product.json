@@ -1,0 +1,29 @@
+[
+	{
+		"photo_url":"'https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/06/D30-2772-006/D30-2772-006_zoom2.jpg?ts=1599758153&ims=326x",
+        "name": "Camisa Futebol Topper Classic Masculina - Preto",
+        "avaliations": [
+            {
+                "id": 1,
+                "stars": 4.5
+            },
+            {
+                "id": 1,
+                "stars": 4.5
+            },
+            {
+                "id": 1,
+                "stars": 4.5
+            }
+        ],
+        "price": 29.99,
+        "discounts": [
+            {
+                "id": 1,
+                "percentage": 10,
+                "start_in": "2020-12-15T14:02:24+0000",
+                "end_in": "2020-12-25T14:02:24+0000"
+            }
+        ]
+    }
+]
