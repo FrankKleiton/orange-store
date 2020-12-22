@@ -81,7 +81,6 @@ export default {
           discount.percentage = el.percentage;
           return discount;
         })
-        .filter((el) => compareAsc(el.created_at, new Date()) >= 0)
         .sort((a, b) => compareAsc(a.created_at, b.created_at));
 
       return sortedDiscounts[sortedDiscounts.length - 1].percentage;
