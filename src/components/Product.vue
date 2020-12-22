@@ -35,6 +35,18 @@ import { parseISO, compareAsc } from 'date-fns';
 import Star from 'vue-material-design-icons/Star.vue';
 import StarHalf from 'vue-material-design-icons/StarHalf.vue';
 
+function validateArrayOfObjects(value, properties) {
+  let status = true;
+
+  value.forEach((el) => {
+    if (JSON.stringify(Object.keys(el)) !== JSON.stringify(properties)) {
+      status = false;
+    }
+  });
+
+  return status;
+}
+
 export default {
   name: 'Product',
   components: {
@@ -42,11 +54,37 @@ export default {
     StarHalf,
   },
   props: {
-    name: String,
-    url: String,
-    price: Number,
-    avaliations: Array,
-    discounts: Array,
+    name: {
+      type: String,
+      required: true,
+    },
+    url: {
+      type: String,
+      required: true,
+    },
+    price: {
+      type: Number,
+      required: true,
+    },
+    avaliations: {
+      type: Array,
+      required: true,
+    },
+    discounts: {
+      type: Array,
+      required: true,
+      validator: (value) => {
+        const properties = [
+          'id',
+          'percentage',
+          'start_in',
+          'end_in',
+          'created_at',
+        ];
+
+        return validateArrayOfObjects(value, properties);
+      },
+    },
   },
   computed: {
     starsAmount() {
