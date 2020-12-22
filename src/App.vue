@@ -30,9 +30,15 @@ export default {
 }
 
 @font-face {
-  font-family: "Montserrat-Light";
-  src: local("Montserrat0Light"),
+  font-family: "Montserrat-Light-Italic";
+  src: local("Montserrat-Light-Italic"),
    url(./assets/fonts/Montserrat-LightItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: local("Montserrat-Light"),
+   url(./assets/fonts/Montserrat-Light.ttf) format("truetype");
 }
 
 :root {
@@ -44,7 +50,12 @@ export default {
 *::after {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat-Regular';
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5;
 }
 
 .container {
