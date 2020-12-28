@@ -30,11 +30,19 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-img {
+.content img {
   width: 100%;
+  margin-bottom: 1.5em;
 }
 
 .content {
   width: 100%;
+
+  .products {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 2.3em;
+  }
 }
 </style>

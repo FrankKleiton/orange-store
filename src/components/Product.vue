@@ -85,6 +85,10 @@ export default {
         return validateArrayOfObjects(value, properties);
       },
     },
+    styles: {
+      type: String,
+      required: false,
+    },
   },
   computed: {
     starsAmount() {
@@ -135,7 +139,7 @@ export default {
 .card {
   display: flex;
   flex-direction: column;
-  width: 18.5em;
+  width: 275px;
   background-color: white;
 
   image {
