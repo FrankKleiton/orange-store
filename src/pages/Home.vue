@@ -46,4 +46,14 @@ export default {
     row-gap: 2em;
   }
 }
+
+/deep/ .card {
+  justify-self: center;
+}
+
+@media (max-width: 700px) {
+  .content img {
+    display: none;
+  }
+}
 </style>
