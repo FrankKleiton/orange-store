@@ -139,7 +139,7 @@ export default {
 .card {
   display: flex;
   flex-direction: column;
-  width: 275px;
+  width: 326px;
   background-color: white;
 
   image {

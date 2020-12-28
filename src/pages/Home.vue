@@ -41,8 +41,9 @@ export default {
   .products {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-    gap: 2.3em;
+    grid-template-columns: repeat(auto-fill, minmax(326px, 1fr));
+    column-gap: 7em;
+    row-gap: 2em;
   }
 }
 </style>
