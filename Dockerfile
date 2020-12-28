@@ -4,6 +4,4 @@ WORKDIR /app
 
 COPY . .
 
-RUN yarn install
-
-CMD ["yarn", "serve"]
+CMD yarn ; yarn serve
