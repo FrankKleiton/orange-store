@@ -38,8 +38,12 @@ import StarHalf from 'vue-material-design-icons/StarHalf.vue';
 function validateArrayOfObjects(value, properties) {
   let status = true;
 
-  value.forEach((el) => {
-    if (JSON.stringify(Object.keys(el)) !== JSON.stringify(properties)) {
+  value.forEach((key) => {
+    if (
+      properties.some(
+        (property) => Object.keys(key).findIndex((index) => index === property) === -1,
+      )
+    ) {
       status = false;
     }
   });
