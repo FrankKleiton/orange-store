@@ -2,6 +2,8 @@
   <div class="content">
     <img src="../assets/images/banner.png" />
 
+    <h1 class="title">Todos os Produtos</h1>
+
     <div class="products">
       <product
         v-for="product in products"
@@ -37,6 +39,12 @@ export default {
 
 .content {
   width: 100%;
+
+  .title {
+    margin-bottom: 1em;
+    color: #3b3a3a;
+    font-family: 'Montserrat-Bold';
+  }
 
   .products {
     width: 100%;

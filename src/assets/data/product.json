@@ -90,7 +90,7 @@
     {
         "id": 3,
 		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-soccer-recorte-masculina/60/D30-2698-060/D30-2698-060_zoom2.jpg?ts=1597084924&ims=326x",
-        "name": "Camisa Futebol Topper Classic Masculina - Preto",
+        "name": "Camisa Futebol Topper Soccer Recorte Masculina",
         "avaliations": [
             {
                 "id": 1,
@@ -133,8 +133,8 @@
     },
     {
         "id": 4,
-		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/06/D30-2772-006/D30-2772-006_zoom2.jpg?ts=1599758153&ims=326x",
-        "name": "Camisa Futebol Topper Classic Masculina - Preto",
+		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/88/D30-2772-788/D30-2772-788_zoom2.jpg?ts=1599759056&ims=326x",
+        "name": "Camisa Futebol Topper Classic Masculina",
         "avaliations": [
             {
                 "id": 1,
@@ -177,8 +177,8 @@
     },
     {
         "id": 5,
-		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/06/D30-2772-006/D30-2772-006_zoom2.jpg?ts=1599758153&ims=326x",
-        "name": "Camisa Futebol Topper Classic Masculina - Preto",
+		"photo_url":"https://static.netshoes.com.br/produtos/camisa-polo-juventus-shadow-masculina/14/D65-1700-014/D65-1700-014_zoom2.jpg?ts=1602583640&ims=326x",
+        "name": "Camisa Futebol Topper Classic Masculina",
         "avaliations": [
             {
                 "id": 1,
@@ -221,8 +221,8 @@
     },
     {
         "id": 6,
-		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/06/D30-2772-006/D30-2772-006_zoom2.jpg?ts=1599758153&ims=326x",
-        "name": "Camisa Futebol Topper Classic Masculina - Preto",
+		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/60/D30-2772-060/D30-2772-060_zoom2.jpg?ts=1599822252&ims=326x",
+        "name": "Camisa Futebol Topper Classic Masculina",
         "avaliations": [
             {
                 "id": 1,
@@ -265,8 +265,8 @@
     },
     {
         "id": 7,
-		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/06/D30-2772-006/D30-2772-006_zoom2.jpg?ts=1599758153&ims=326x",
-        "name": "Camisa Futebol Topper Classic Masculina - Preto",
+		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-graphic-masculina/16/D30-2704-016/D30-2704-016_zoom2.jpg?ts=1597084716&ims=326x",
+        "name": "Camisa Futebol Topper Graphic Masculina",
         "avaliations": [
             {
                 "id": 1,
@@ -309,8 +309,8 @@
     },
     {
         "id": 8,
-		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/06/D30-2772-006/D30-2772-006_zoom2.jpg?ts=1599758153&ims=326x",
-        "name": "Camisa Futebol Topper Classic Masculina - Preto",
+		"photo_url":"https://static.netshoes.com.br/produtos/camisa-long-imperio-fitness-fe-masculina/06/DUK-0278-006/DUK-0278-006_zoom2.jpg?ts=1598940357&ims=326x",
+        "name": "Camisa Long Império Fitness Fé Masculina",
         "avaliations": [
             {
                 "id": 1,
@@ -353,8 +353,8 @@
     },
     {
         "id": 9,
-		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/06/D30-2772-006/D30-2772-006_zoom2.jpg?ts=1599758153&ims=326x",
-        "name": "Camisa Futebol Topper Classic Masculina - Preto",
+		"photo_url":"https://static.netshoes.com.br/produtos/camisa-umbro-twr-striker-masculina/06/D21-1055-006/D21-1055-006_zoom1.jpg?ts=1593595257&ims=326x",
+        "name": "Camisa Umbro TWR Striker Masculina",
         "avaliations": [
             {
                 "id": 1,
@@ -397,228 +397,8 @@
     },
     {
         "id": 10,
-		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/06/D30-2772-006/D30-2772-006_zoom2.jpg?ts=1599758153&ims=326x",
-        "name": "Camisa Futebol Topper Classic Masculina - Preto",
-        "avaliations": [
-            {
-                "id": 1,
-                "stars": 2
-            },
-            {
-                "id": 1,
-                "stars": 1
-            },
-            {
-                "id": 1,
-                "stars": 4.5
-            }
-        ],
-        "price": 29.99,
-        "discounts": [
-            {
-                "id": 1,
-                "percentage": 10,
-                "start_in": "2020-12-15T14:02:24+0000",
-                "end_in": "2020-12-25T14:02:24+0000",
-                "created_at": "2020-12-25T14:02:24+0000"
-            },
-            {
-                "id": 2,
-                "percentage": 15,
-                "start_in": "2020-12-16T14:02:24+00:00",
-                "end_in": "2020-12-14T14:02:24+00:00",
-                "created_at": "2020-12-14T14:02:24+00:00"
-
-            },
-            {
-                "id": 3,
-                "percentage": 20,
-                "start_in": "2020-12-16T14:02:24+00:00",
-                "end_in": "2020-12-24T14:02:24+00:00",
-                "created_at": "2020-12-24T14:02:24+00:00"
-            }
-        ]
-    },
-    {
-        "id": 11,
-		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/06/D30-2772-006/D30-2772-006_zoom2.jpg?ts=1599758153&ims=326x",
-        "name": "Camisa Futebol Topper Classic Masculina - Preto",
-        "avaliations": [
-            {
-                "id": 1,
-                "stars": 2
-            },
-            {
-                "id": 1,
-                "stars": 1
-            },
-            {
-                "id": 1,
-                "stars": 4.5
-            }
-        ],
-        "price": 29.99,
-        "discounts": [
-            {
-                "id": 1,
-                "percentage": 10,
-                "start_in": "2020-12-15T14:02:24+0000",
-                "end_in": "2020-12-25T14:02:24+0000",
-                "created_at": "2020-12-25T14:02:24+0000"
-            },
-            {
-                "id": 2,
-                "percentage": 15,
-                "start_in": "2020-12-16T14:02:24+00:00",
-                "end_in": "2020-12-14T14:02:24+00:00",
-                "created_at": "2020-12-14T14:02:24+00:00"
-
-            },
-            {
-                "id": 3,
-                "percentage": 20,
-                "start_in": "2020-12-16T14:02:24+00:00",
-                "end_in": "2020-12-24T14:02:24+00:00",
-                "created_at": "2020-12-24T14:02:24+00:00"
-            }
-        ]
-    },
-    {
-        "id": 12,
-		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/06/D30-2772-006/D30-2772-006_zoom2.jpg?ts=1599758153&ims=326x",
-        "name": "Camisa Futebol Topper Classic Masculina - Preto",
-        "avaliations": [
-            {
-                "id": 1,
-                "stars": 2
-            },
-            {
-                "id": 1,
-                "stars": 1
-            },
-            {
-                "id": 1,
-                "stars": 4.5
-            }
-        ],
-        "price": 29.99,
-        "discounts": [
-            {
-                "id": 1,
-                "percentage": 10,
-                "start_in": "2020-12-15T14:02:24+0000",
-                "end_in": "2020-12-25T14:02:24+0000",
-                "created_at": "2020-12-25T14:02:24+0000"
-            },
-            {
-                "id": 2,
-                "percentage": 15,
-                "start_in": "2020-12-16T14:02:24+00:00",
-                "end_in": "2020-12-14T14:02:24+00:00",
-                "created_at": "2020-12-14T14:02:24+00:00"
-
-            },
-            {
-                "id": 3,
-                "percentage": 20,
-                "start_in": "2020-12-16T14:02:24+00:00",
-                "end_in": "2020-12-24T14:02:24+00:00",
-                "created_at": "2020-12-24T14:02:24+00:00"
-            }
-        ]
-    },
-    {
-        "id": 13,
-		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/06/D30-2772-006/D30-2772-006_zoom2.jpg?ts=1599758153&ims=326x",
-        "name": "Camisa Futebol Topper Classic Masculina - Preto",
-        "avaliations": [
-            {
-                "id": 1,
-                "stars": 2
-            },
-            {
-                "id": 1,
-                "stars": 1
-            },
-            {
-                "id": 1,
-                "stars": 4.5
-            }
-        ],
-        "price": 29.99,
-        "discounts": [
-            {
-                "id": 1,
-                "percentage": 10,
-                "start_in": "2020-12-15T14:02:24+0000",
-                "end_in": "2020-12-25T14:02:24+0000",
-                "created_at": "2020-12-25T14:02:24+0000"
-            },
-            {
-                "id": 2,
-                "percentage": 15,
-                "start_in": "2020-12-16T14:02:24+00:00",
-                "end_in": "2020-12-14T14:02:24+00:00",
-                "created_at": "2020-12-14T14:02:24+00:00"
-
-            },
-            {
-                "id": 3,
-                "percentage": 20,
-                "start_in": "2020-12-16T14:02:24+00:00",
-                "end_in": "2020-12-24T14:02:24+00:00",
-                "created_at": "2020-12-24T14:02:24+00:00"
-            }
-        ]
-    },
-    {
-        "id": 14,
-		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/06/D30-2772-006/D30-2772-006_zoom2.jpg?ts=1599758153&ims=326x",
-        "name": "Camisa Futebol Topper Classic Masculina - Preto",
-        "avaliations": [
-            {
-                "id": 1,
-                "stars": 2
-            },
-            {
-                "id": 1,
-                "stars": 1
-            },
-            {
-                "id": 1,
-                "stars": 4.5
-            }
-        ],
-        "price": 29.99,
-        "discounts": [
-            {
-                "id": 1,
-                "percentage": 10,
-                "start_in": "2020-12-15T14:02:24+0000",
-                "end_in": "2020-12-25T14:02:24+0000",
-                "created_at": "2020-12-25T14:02:24+0000"
-            },
-            {
-                "id": 2,
-                "percentage": 15,
-                "start_in": "2020-12-16T14:02:24+00:00",
-                "end_in": "2020-12-14T14:02:24+00:00",
-                "created_at": "2020-12-14T14:02:24+00:00"
-
-            },
-            {
-                "id": 3,
-                "percentage": 20,
-                "start_in": "2020-12-16T14:02:24+00:00",
-                "end_in": "2020-12-24T14:02:24+00:00",
-                "created_at": "2020-12-24T14:02:24+00:00"
-            }
-        ]
-    },
-    {
-        "id": 15,
-		"photo_url":"https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/06/D30-2772-006/D30-2772-006_zoom2.jpg?ts=1599758153&ims=326x",
-        "name": "Camisa Futebol Topper Classic Masculina - Preto",
+		"photo_url":"https://static.netshoes.com.br/produtos/camisa-milano-estampada-manga-longa-masculina/08/GAL-1680-008/GAL-1680-008_zoom2.jpg?ts=1599221548&ims=326x",
+        "name": "Camisa Milano Estampada Manga Longa Masculina",
         "avaliations": [
             {
                 "id": 1,

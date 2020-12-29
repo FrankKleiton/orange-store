@@ -141,6 +141,7 @@ export default {
   flex-direction: column;
   width: 326px;
   background-color: white;
+  border: 1px solid rgb(224, 223, 223);
 
   image {
     width: 100%;
