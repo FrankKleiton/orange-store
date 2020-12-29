@@ -18,8 +18,8 @@
   </div>
 </template>
 <script>
+import { mapGetters } from 'vuex';
 import Product from '../components/Product.vue';
-import products from '../assets/data/product.json';
 
 export default {
   name: 'Home',
@@ -27,7 +27,12 @@ export default {
     Product,
   },
   computed: {
-    products: () => products,
+    ...mapGetters({
+      products: 'getProducts',
+    }),
+  },
+  created() {
+    this.$store.dispatch('getProducts');
   },
 };
 </script>

@@ -1,0 +1,165 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "photo_url": "https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/06/D30-2772-006/D30-2772-006_zoom2.jpg?ts=1599758153&ims=326x",
+            "name": "Camisa Futebol Topper Classic Masculina - Preto",
+            "price": 29.99,
+            "discounts": [
+                {
+                    "id": 1,
+                    "percentage": 10,
+                    "start_in": "2020-12-15T14:02:24+0000",
+                    "end_in": "2020-12-25T14:02:24+0000",
+                    "created_at": "2020-12-25T14:02:24+0000"
+                },
+                {
+                    "id": 2,
+                    "percentage": 15,
+                    "start_in": "2020-12-16T14:02:24+00:00",
+                    "end_in": "2020-12-14T14:02:24+00:00",
+                    "created_at": "2020-12-14T14:02:24+00:00"
+                },
+                {
+                    "id": 3,
+                    "percentage": 20,
+                    "start_in": "2020-12-16T14:02:24+00:00",
+                    "end_in": "2020-12-24T14:02:24+00:00",
+                    "created_at": "2020-12-24T14:02:24+00:00"
+                }
+            ],
+            "avaliations": [
+                {
+                    "id": 1,
+                    "stars": 2
+                },
+                {
+                    "id": 2,
+                    "stars": 1
+                },
+                {
+                    "id": 3,
+                    "stars": 4.5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "photo_url": "https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/14/D30-2772-014/D30-2772-014_zoom2.jpg?ts=1599758608&ims=326x",
+            "name": "Camisa Futebol Topper Classic Masculina",
+            "price": 29.99,
+            "avaliations": [
+                {
+                    "id": 4,
+                    "stars": 1
+                },
+                {
+                    "id": 5,
+                    "stars": 4.5
+                },
+                {
+                    "id": 6,
+                    "stars": 4.5
+                }
+            ],
+            "discounts": [
+                {
+                    "id": 4,
+                    "percentage": 15,
+                    "start_in": "2020-12-16T14:02:24+00:00",
+                    "end_in": "2020-12-14T14:02:24+00:00",
+                    "created_at": "2020-12-14T14:02:24+00:00"
+                },
+                {
+                    "id": 5,
+                    "percentage": 20,
+                    "start_in": "2020-12-16T14:02:24+00:00",
+                    "end_in": "2020-12-24T14:02:24+00:00",
+                    "created_at": "2020-12-24T14:02:24+00:00"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "photo_url": "https://static.netshoes.com.br/produtos/camisa-futebol-topper-soccer-recorte-masculina/60/D30-2698-060/D30-2698-060_zoom2.jpg?ts=1597084924&ims=326x",
+            "name": "Camisa Futebol Topper Soccer Recorte Masculina",
+            "price": 29.99,
+            "avaliations": [
+                {
+                    "id": 7,
+                    "stars": 1
+                },
+                {
+                    "id": 8,
+                    "stars": 4.5
+                }
+            ],
+            "discounts": [
+                {
+                    "id": 6,
+                    "percentage": 20,
+                    "start_in": "2020-12-16T14:02:24+00:00",
+                    "end_in": "2020-12-24T14:02:24+00:00",
+                    "created_at": "2020-12-24T14:02:24+00:00"
+                },
+                {
+                    "id": 7,
+                    "percentage": 15,
+                    "start_in": "2020-12-16T14:02:24+00:00",
+                    "end_in": "2020-12-14T14:02:24+00:00",
+                    "created_at": "2020-12-14T14:02:24+00:00"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "photo_url": "https://static.netshoes.com.br/produtos/camisa-futebol-topper-classic-masculina/88/D30-2772-788/D30-2772-788_zoom2.jpg?ts=1599759056&ims=326x",
+            "name": "Camisa Futebol Topper Classic Masculina",
+            "price": 29.99,
+            "avaliations": [
+                {
+                    "id": 9,
+                    "stars": 4.5
+                },
+                {
+                    "id": 10,
+                    "stars": 1
+                },
+                {
+                    "id": 11,
+                    "stars": 4.5
+                }
+            ],
+            "discounts": [
+                {
+                    "id": 8,
+                    "percentage": 20,
+                    "start_in": "2020-12-16T14:02:24+00:00",
+                    "end_in": "2020-12-24T14:02:24+00:00",
+                    "created_at": "2020-12-24T14:02:24+00:00",
+                },
+                {
+                    "id": 9,
+                    "percentage": 20,
+                    "start_in": "2020-12-16T14:02:24+00:00",
+                    "end_in": "2020-12-24T14:02:24+00:00",
+                    "created_at": "2020-12-24T14:02:24+00:00",
+                },
+                {
+                    "id": 10,
+                    "percentage": 15,
+                    "start_in": "2020-12-16T14:02:24+00:00",
+                    "end_in": "2020-12-14T14:02:24+00:00",
+                    "created_at": "2020-12-14T14:02:24+00:00",
+                },
+                {
+                    "id": 11,
+                    "percentage": 20,
+                    "start_in": "2020-12-16T14:02:24+00:00",
+                    "end_in": "2020-12-24T14:02:24+00:00",
+                    "created_at": "2020-12-24T14:02:24+00:00",
+                }
+            ]
+        }
+    ]
+}
