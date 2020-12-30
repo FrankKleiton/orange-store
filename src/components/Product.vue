@@ -4,27 +4,34 @@
     <div class="content">
       <h1>{{ name }}</h1>
 
-      <div class="stars">
+      <div class="stars" :title="starsTitle">
         <star
           v-for="star in starsAmount"
           :key="star.id"
           :size="16"
+          :title="starsTitle"
           fillColor="#8FCB9B"
         ></star>
         <star-half
           v-if="hasHalfStar"
           :size="16"
+          :title="starsTitle"
           fillColor="#8FCB9B"
         ></star-half>
       </div>
 
-      <div class="price">
-        <div v-if="formattedPrice === discountedPrice">
-          <h2>R$ {{ formattedPrice }}</h2>
+      <div class="card-bottom">
+        <div class="price">
+          <div v-if="formattedPrice === discountedPrice">
+            <h2>R$ {{ formattedPrice }}</h2>
+          </div>
+          <div v-else>
+            <h3>{{ formattedPrice }}</h3>
+            <h2>{{ discountedPrice }}</h2>
+          </div>
         </div>
-        <div v-else>
-          <h3>{{ formattedPrice }}</h3>
-          <h2>{{ discountedPrice }}</h2>
+        <div>
+
         </div>
       </div>
     </div>
@@ -95,6 +102,9 @@ export default {
     },
   },
   computed: {
+    starsTitle() {
+      return `Rate ${(this.computeStarsMean()).toFixed(1)} stars`;
+    },
     starsAmount() {
       return Math.floor(this.computeStarsMean());
     },
@@ -147,9 +157,10 @@ export default {
   background-color: white;
   border: 1px solid rgb(224, 223, 223);
 
-  image {
+  img {
     width: 100%;
     height: 100%;
+    cursor: pointer;
   }
 
   .content {
@@ -160,6 +171,7 @@ export default {
     h1 {
       font-size: 0.87rem;
       line-height: 1.4;
+      cursor: pointer;
     }
 
     h2 {
@@ -176,6 +188,10 @@ export default {
 
     .stars {
       margin: 0.2em 0 0.5em 0;
+    }
+
+    .price > * {
+      cursor: default;
     }
   }
 }
