@@ -1,6 +1,12 @@
 <template>
   <div class="card">
-    <img :src="url" />
+    <div class="image-container">
+      <img :src="url" />
+      <div class="plus-circle">
+        <plus-circle :size="40" fillColor="#8FCB9B" @click="addToCart(product)" />
+      </div>
+    </div>
+
     <div class="content">
       <h1>{{ name }}</h1>
 
@@ -20,18 +26,13 @@
         ></star-half>
       </div>
 
-      <div class="card-bottom">
-        <div class="price">
-          <div v-if="formattedPrice === discountedPrice">
-            <h2>R$ {{ formattedPrice }}</h2>
-          </div>
-          <div v-else>
-            <h3>{{ formattedPrice }}</h3>
-            <h2>{{ discountedPrice }}</h2>
-          </div>
+      <div class="price">
+        <div v-if="formattedPrice === discountedPrice">
+          <h2>R$ {{ formattedPrice }}</h2>
         </div>
-        <div>
-
+        <div v-else>
+          <h3>{{ formattedPrice }}</h3>
+          <h2>{{ discountedPrice }}</h2>
         </div>
       </div>
     </div>
@@ -41,6 +42,7 @@
 import { parseISO, compareAsc } from 'date-fns';
 import Star from 'vue-material-design-icons/Star.vue';
 import StarHalf from 'vue-material-design-icons/StarHalf.vue';
+import PlusCircle from 'vue-material-design-icons/PlusCircle.vue';
 
 function validateArrayOfObjects(value, properties) {
   let status = true;
@@ -63,8 +65,13 @@ export default {
   components: {
     Star,
     StarHalf,
+    PlusCircle,
   },
   props: {
+    id: {
+      type: Number,
+      required: true,
+    },
     name: {
       type: String,
       required: true,
@@ -102,8 +109,18 @@ export default {
     },
   },
   computed: {
+    product() {
+      return {
+        id: this.id,
+        name: this.name,
+        url: this.url,
+        price: this.price,
+        avaliations: this.avaliations,
+        discounts: this.discounts,
+      };
+    },
     starsTitle() {
-      return `Rate ${(this.computeStarsMean()).toFixed(1)} stars`;
+      return `Rate ${this.computeStarsMean().toFixed(1)} stars`;
     },
     starsAmount() {
       return Math.floor(this.computeStarsMean());
@@ -146,6 +163,12 @@ export default {
       const mean = sum / this.avaliations.length;
       return mean;
     },
+    addToCart(product) {
+      this.$store.commit({
+        type: 'addProductToCart',
+        product,
+      });
+    },
   },
 };
 </script>
@@ -157,10 +180,25 @@ export default {
   background-color: white;
   border: 1px solid rgb(224, 223, 223);
 
+  .image-container {
+    position: relative;
+  }
+
   img {
     width: 100%;
     height: 100%;
+  }
+
+  .plus-circle {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
     cursor: pointer;
+    transition: .2s ease-out;
+  }
+
+  .plus-circle:hover {
+    transform: scale(1.1);
   }
 
   .content {

@@ -3,18 +3,24 @@
     <div class="cart-container">
       <cart fillColor="#FFFFFF" :size="30"></cart>
       <div class="amount">
-        <span>0</span>
+        <span>{{ productsAmount }}</span>
       </div>
     </div>
   </div>
 </template>
 <script>
 import Cart from 'vue-material-design-icons/Cart.vue';
+import { mapGetters } from 'vuex';
 
 export default {
   name: 'ShoppingCart',
   components: {
     Cart,
+  },
+  computed: {
+    ...mapGetters({
+      productsAmount: 'getCartProductsAmount',
+    }),
   },
 };
 
